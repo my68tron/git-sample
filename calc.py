@@ -6,6 +6,6 @@ def subtract(x,y):
 def multiply(x,y):
     return x*y
 def divide(x,y):
-    pass
+    return x/y if y !=0 else "INF"
 def square(x,y):
     pass
